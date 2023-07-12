@@ -1,0 +1,20 @@
+.page {
+	background-color: #fff;
+}
+.page-content {
+	margin: 0 auto;
+	max-width: 960px;
+}
+header {
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+	margin-bottom: 80px;
+}
+nav.my-2 {
+	display: inline-flex;
+}
+nav.my-2 a {
+	margin-right: 24px;
+}
