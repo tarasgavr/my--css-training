@@ -15,82 +15,102 @@
 }
 
 .task5 {
+  background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
 .task6 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-x;
 }
 
 .task7 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y;
 }
 
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat;
 }
 
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: space;
 }
 
 .task10 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: round;
 }
 
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: scroll;
 }
 
 .task12 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: fixed;
 }
 
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: local;
 }
 
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 50% 50%;
 }
 
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 50% 0;
 }
 
 .task16 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 50% 100%;
 }
 
 .task17 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 0 50%;
 }
 
 .task18 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 100% 50%;
 }
 
 .task19 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 100px 100px;
 }
 
 .task20 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: auto;
 }
 
 .task21 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 600px;
 }
 
 .task22 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 50%;
 }
 
 .task23 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: contain;
 }
 
 .task24 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: cover;
 }
 
 .task25 {
