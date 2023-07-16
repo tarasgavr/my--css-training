@@ -1,247 +1,299 @@
-.task1 {
-}
-
-.task2 {
-}
-
-.task3 {
+.grid .task1 {
   display: grid;
 }
 
-.task4 {
-  display: grid;
-}
-.task4 .item2 {
-}
-.task4 .item4 {
-}
-.task4 .item3 {
+.grid .task2 {
+  display: inline-grid;
 }
 
-.task5 {
+.grid .task3 {
+  display: grid;
+  gap: 25px 10px;
+}
+
+.grid .task4 {
+  display: grid;
+}
+.grid .task4 .item2 {
+  order: 5;
+}
+.grid .task4 .item4 {
+  order: 4;
+}
+.grid .task4 .item3 {
+  order: 6;
+}
+
+.grid .task5 {
+  display: grid;
+  justify-content: flex-start;
+}
+
+.grid .task6 {
+  display: grid;
+  justify-content: flex-end;
+}
+
+.grid .task7 {
+  display: grid;
+  justify-content: center;
+}
+
+.grid .task8 {
+  display: grid;
+  justify-content: space-between;
+}
+
+.grid .task9 {
+  display: grid;
+  justify-content: space-around;
+}
+
+.grid .task10 {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.grid .task11 {
+  display: grid;
+  justify-content: stretch;
+}
+
+.grid .task12 {
+  display: grid;
+  align-content: flex-start;
+}
+
+.grid .task13 {
+  display: grid;
+  align-content: flex-end;
+}
+
+.grid .task14 {
+  display: grid;
+  align-content: center;
+}
+
+.grid .task15 {
+  display: grid;
+  align-content: stretch;
+}
+
+.grid .task16 {
+  display: grid;
+  align-content: space-between;  
+}
+
+.grid .task17 {
+  display: grid;
+  align-content: space-around;
+}
+
+.grid .task18 {
+  display: grid;
+  align-content: space-evenly;
+}
+
+.grid .task19 {
+  display: grid;
+  justify-content: flex-start;
+  align-content: center;
+  }
+
+.grid .task20 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: flex-start;
+}
+.grid .task20 .item {
+  
+}
+.grid .task21 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: flex-end;
+}
+
+.grid .task22 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+}
+
+.grid .task23 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: stretch;
+}
+
+.grid .task24 {
+  display: grid;
+  align-items: start;
+}
+
+.grid .task25 {
+  display: grid;
+  align-items: end;
+}
+
+.grid .task26 {
+  display: grid;
+  align-items: center;
+}
+
+.grid .task27 {
+  display: grid;
+  align-items: stretch;
+}
+
+.grid .task28 {
+  display: grid;
+  align-items: baseline;
+}
+
+.grid .task29 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  align-items: stretch;
+}
+
+.grid .task30 {
+  display: grid;
+}
+.grid .task30 .item1 {
+ justify-self: start; 
+}
+
+.grid .task31 {
+  display: grid;
+}
+.grid .task31 .item2 {
+  justify-self: end;
+}
+
+.grid .task32 {
+  display: grid;
+}
+.grid .task32 .item3 {
+  justify-self: center;
+}
+
+.grid .task33 {
+  display: grid;
+}
+.grid .task33 .item4 {
+  justify-self: stretch;
+}
+
+.grid .task34 {
+  display: grid;
+}
+.grid .task34 .item1 {
+  align-self: start;
+}
+
+.grid .task35 {
+  display: grid;
+}
+.grid .task35 .item2 {
+  align-self: end;
+}
+
+.grid .task36 {
+  display: grid;
+}
+.grid .task36 .item3 {
+  align-self: center;
+}
+
+.grid .task37 {
+  display: grid;
+}
+.grid .task37 .item4 {
+  align-self: stretch;
+}
+
+.grid .task38 {
+  display: grid;
+}
+.grid .task38 .item5 {
+  justify-self: start;
+  align-self: center;
+}
+
+.grid .task39 {
+  display: grid;
+  grid-template-rows: 1fr 2fr 3fr;
+}
+
+.grid .task40 {
+  display: grid;
+  grid-template-columns: minmax(min-content,30%) minmax(min-content,70%);
+}
+
+.grid .task41 {
   display: grid;
 }
 
-.task6 {
+.grid .task42 {
+  display: grid;
+}
+.grid .task42 .item1 {
+}
+.grid .task42 .item2 {
+}
+.grid .task42 .item3 {
+}
+.grid .task42 .item4 {
+}
+.grid .task42 .item5 {
+}
+.grid .task42 .item6 {
+}
+
+.grid .task43 {
+  display: grid;
+}
+.grid .task43 .item3 {
+}
+
+.grid .task44 {
+  display: grid;
+}
+.grid .task44 .item3 {
+}
+
+.grid .task45 {
+  display: grid;
+}
+.grid .task45 .item3 {
+}
+
+.grid .task46 {
   display: grid;
 }
 
-.task7 {
+.grid .task47 {
   display: grid;
 }
 
-.task8 {
+.grid .task48 {
   display: grid;
 }
 
-.task9 {
+.grid .task50 {
   display: grid;
 }
 
-.task10 {
+.grid .task49 {
   display: grid;
 }
 
-.task11 {
+.grid .task51 {
   display: grid;
 }
 
-.task12 {
-  display: grid;
-}
-
-.task13 {
-  display: grid;
-}
-
-.task14 {
-  display: grid;
-}
-
-.task15 {
-  display: grid;
-}
-
-.task16 {
-  display: grid;
-}
-
-.task17 {
-  display: grid;
-}
-
-.task18 {
-  display: grid;
-}
-
-.task19 {
-  display: grid;
-}
-
-.task20 {
-  display: grid;
-}
-
-.task21 {
-  display: grid;
-}
-
-.task22 {
-  display: grid;
-}
-
-.task23 {
-  display: grid;
-}
-
-.task24 {
-  display: grid;
-}
-
-.task25 {
-  display: grid;
-}
-
-.task26 {
-  display: grid;
-}
-
-.task27 {
-  display: grid;
-}
-
-.task28 {
-  display: grid;
-}
-
-.task29 {
-  display: grid;
-}
-
-.task30 {
-  display: grid;
-}
-.task30 .item1 {
-}
-
-.task31 {
-  display: grid;
-}
-.task31 .item2 {
-}
-
-.task32 {
-  display: grid;
-}
-.task32 .item3 {
-}
-
-.task33 {
-  display: grid;
-}
-.task33 .item4 {
-}
-
-.task34 {
-  display: grid;
-}
-.task34 .item1 {
-}
-
-.task35 {
-  display: grid;
-}
-.task35 .item2 {
-}
-
-.task36 {
-  display: grid;
-}
-.task36 .item3 {
-}
-
-.task37 {
-  display: grid;
-}
-.task37 .item4 {
-}
-
-.task38 {
-  display: grid;
-}
-.task38 .item5 {
-}
-
-.task39 {
-  display: grid;
-}
-
-.task40 {
-  display: grid;
-}
-
-.task41 {
-  display: grid;
-}
-
-.task42 {
-  display: grid;
-}
-.task42 .item1 {
-}
-.task42 .item2 {
-}
-.task42 .item3 {
-}
-.task42 .item4 {
-}
-.task42 .item5 {
-}
-.task42 .item6 {
-}
-
-.task43 {
-  display: grid;
-}
-.task43 .item3 {
-}
-
-.task44 {
-  display: grid;
-}
-.task44 .item3 {
-}
-
-.task45 {
-  display: grid;
-}
-.task45 .item3 {
-}
-
-.task46 {
-  display: grid;
-}
-
-.task47 {
-  display: grid;
-}
-
-.task48 {
-  display: grid;
-}
-
-.task50 {
-  display: grid;
-}
-
-.task49 {
-  display: grid;
-}
-
-.task51 {
-  display: grid;
-}
-
-.task52 {
+.grid .task52 {
   display: grid;
 }
