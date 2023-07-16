@@ -1,133 +1,133 @@
-.task1 {
+.bg.task1 {
   background-color: #008000;
 }
 
-.task2 {
+.bg.task2 {
   background-image: url('/background-img/img-400x200.jpg');
 }
 
-.task3 {
+.bg.task3 {
   background-image: linear-gradient(to bottom,#ff0,#f00);
 }
 
-.task4 {
+.bg.task4 {
   background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.task5 {
+.bg.task5 {
   background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
-.task6 {
+.bg.task6 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: repeat-x;
 }
 
-.task7 {
+.bg.task7 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: repeat-y;
 }
 
-.task8 {
+.bg.task8 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: no-repeat;
 }
 
-.task9 {
+.bg.task9 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: space;
 }
 
-.task10 {
+.bg.task10 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: round;
 }
 
-.task11 {
+.bg.task11 {
   background-image: url('/background-img/img-400x200.jpg');
   background-attachment: scroll;
 }
 
-.task12 {
+.bg.task12 {
   background-image: url('/background-img/img-400x200.jpg');
   background-attachment: fixed;
 }
 
-.task13 {
+.bg.task13 {
   background-image: url('/background-img/img-400x200.jpg');
   background-attachment: local;
 }
 
-.task14 {
+.bg.task14 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 50% 50%;
 }
 
-.task15 {
+.bg.task15 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 50% 0;
 }
 
-.task16 {
+.bg.task16 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 50% 100%;
 }
 
-.task17 {
+.bg.task17 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 0 50%;
 }
 
-.task18 {
+.bg.task18 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 100% 50%;
 }
 
-.task19 {
+.bg.task19 {
   background-image: url('/background-img/img-400x200.jpg');
   background-position: 100px 100px;
 }
 
-.task20 {
+.bg.task20 {
   background-image: url('/background-img/img-400x200.jpg');
   background-size: auto;
 }
 
-.task21 {
+.bg.task21 {
   background-image: url('/background-img/img-400x200.jpg');
   background-size: 600px;
 }
 
-.task22 {
+.bg.task22 {
   background-image: url('/background-img/img-400x200.jpg');
   background-size: 50%;
 }
 
-.task23 {
+.bg.task23 {
   background-image: url('/background-img/img-400x200.jpg');
   background-size: contain;
 }
 
-.task24 {
+.bg.task24 {
   background-image: url('/background-img/img-400x200.jpg');
   background-size: cover;
 }
 
-.task25 {
+.bg.task25 {
   border: 20px dashed black;
   background-image: url('/background-img/img-400x200.jpg');
   background-clip: border-box;
   box-sizing: border-box;
 }
 
-.task26 {
+.bg.task26 {
   background-image: url('/background-img/img-400x200.jpg');
   background-clip: padding-box;
   border: 20px dashed black;
   box-sizing: border-box;
 }
 
-.task27 {
+.bg.task27 {
   background-image: url('/background-img/img-400x200.jpg');
   -webkit-background-clip: text;
   font-size: 120px;
@@ -135,7 +135,7 @@
   color: transparent;
 }
 
-.task28 {
+.bg.task28 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: no-repeat;
   background-origin: border-box;
@@ -143,7 +143,7 @@
   border: 20px dashed black;
 }
 
-.task29 {
+.bg.task29 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: no-repeat;
   background-origin: padding-box;
@@ -152,7 +152,7 @@
   padding: 20px;
 }
 
-.task30 {
+.bg.task30 {
   background-image: url('/background-img/img-400x200.jpg');
   background-repeat: no-repeat;
   background-origin: content-box;
@@ -163,19 +163,19 @@
   padding: 60px;
 }
 
-.task31 {
+.bg.task31 {
   border: 40px solid;
   border-image: linear-gradient(blue,green) 27;
   box-sizing: border-box;
 }
 
-.task32 {
+.bg.task32 {
   border: 40px solid;
   border-image: radial-gradient(red 5%, green 15%, blue 60%) 27;
   box-sizing: border-box;
 }
 
-.task33 {
+.bg.task33 {
   border-image-source: url('/background-img/img-400x200.jpg');
   border-image-width: 40px;
   border-image-slice: 10;
