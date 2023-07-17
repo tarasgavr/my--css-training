@@ -3,7 +3,7 @@ body {
   overflow: scroll;
 }
 
-.wrapper {
+.grid .wrapper {
   display: grid;
   gap: 30px;
 }
@@ -13,7 +13,7 @@ img {
   width: auto;
 }
 
-.container {
+.grid .container {
   border: 2px solid #0050ff;
   border-radius: 30px;
   padding: 15px;
@@ -23,7 +23,7 @@ img {
   background: white;
 }
 
-.item {
+.grid .item {
   width: auto;
   border-radius: 10px;
   margin: 5px;
@@ -49,122 +49,122 @@ p {
   margin-bottom: 20px;
 }
 
-.task5,
-.task6,
-.task7,
-.task8,
-.task9,
-.task10,
-.task19 {
+.grid .task5,
+.grid .task6,
+.grid .task7,
+.grid .task8,
+.grid .task9,
+.grid .task10,
+.grid .task19 {
   grid-template-columns: 70px 70px;
 }
 
-.task3,
-.task11,
-.task12,
-.task13,
-.task14,
-.task15,
-.task16,
-.task17,
-.task18,
-.task20,
-.task21,
-.task22,
-.task23,
-.task24,
-.task25,
-.task26,
-.task27,
-.task28,
-.task29,
-.task30,
-.task31,
-.task32,
-.task33,
-.task34,
-.task35,
-.task36,
-.task37,
-.task38,
-.task39,
-.task43,
-.task44,
-.task47 {
+.grid .task3,
+.grid .task11,
+.grid .task12,
+.grid .task13,
+.grid .task14,
+.grid .task15,
+.grid .task16,
+.grid .task17,
+.grid .task18,
+.grid .task20,
+.grid .task21,
+.grid .task22,
+.grid .task23,
+.grid .task24,
+.grid .task25,
+.grid .task26,
+.grid .task27,
+.grid .task28,
+.grid .task29,
+.grid .task30,
+.grid .task31,
+.grid .task32,
+.grid .task33,
+.grid .task34,
+.grid .task35,
+.grid .task36,
+.grid .task37,
+.grid .task38,
+.grid .task39,
+.grid .task43,
+.grid .task44,
+.grid .task47 {
   grid-template-columns: 1fr 1fr;
 }
 
-.task12,
-.task13,
-.task14,
-.task15,
-.task16,
-.task17,
-.task18,
-.task19 {
+.grid .task12,
+.grid .task13,
+.grid .task14,
+.grid .task15,
+.grid .task16,
+.grid .task17,
+.grid .task18,
+.grid .task19 {
   height: 600px;
 }
 
-.task24,
-.task25,
-.task26,
-.task27,
-.task28,
-.task29,
-.task34,
-.task35,
-.task36,
-.task37,
-.task38 {
+.grid .task24,
+.grid .task25,
+.grid .task26,
+.grid .task27,
+.grid .task28,
+.grid .task29,
+.grid .task34,
+.grid .task35,
+.grid .task36,
+.grid .task37,
+.grid .task38 {
   grid-auto-rows: 190px;
 }
 
-.task28 .item6,
-.task28 .item3 {
+.grid .task28 .item6,
+.grid .task28 .item3 {
   font-size: 90px;
 }
 
-.task33 .item {
+.grid .task33 .item {
   justify-self: start;
 }
 
-.task37 .item {
+.grid .task37 .item {
   align-self: start;
 }
 
-.task45 {
+.grid .task45 {
   grid-template-rows: repeat(4, 1fr);
 }
 
-.task46 {
+.grid .task46 {
   grid-template-areas: 'first second' 'third fourth';
 }
-.task46 .item1 {
+.grid .task46 .item1 {
   grid-area: first;
 }
-.task46 .item2 {
+.grid .task46 .item2 {
   grid-area: second;
 }
-.task46 .item3 {
+.grid .task46 .item3 {
   grid-area: third;
 }
-.task46 .item4 {
+.grid .task46 .item4 {
   grid-area: fourth;
 }
 
-.task47 .item5,
-.task47 .item6 {
+.grid .task47 .item5,
+.grid .task47 .item6 {
   font-size: 25px;
 }
 
-.task48,
-.task49,
-.task50 {
+.grid .task48,
+.grid .task49,
+.grid .task50 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
-.task48 .item3,
-.task49 .item3,
-.task50 .item3 {
+.grid .task48 .item3,
+.grid .task49 .item3,
+.grid .task50 .item3 {
   grid-column: 1/3;
 }
