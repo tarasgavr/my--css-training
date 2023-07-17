@@ -105,9 +105,6 @@
   grid-template-columns: repeat(2,1fr);
   justify-items: flex-start;
 }
-.grid .task20 .item {
-  
-}
 .grid .task21 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -234,66 +231,88 @@
 
 .grid .task41 {
   display: grid;
+  grid-template: repeat(3,minmax(110px,30%)) / repeat(2,1fr);
 }
 
 .grid .task42 {
   display: grid;
+  grid-template-areas: "a b" "a c" "d e" "d f";
 }
 .grid .task42 .item1 {
+  grid-area: a;
 }
 .grid .task42 .item2 {
+  grid-area: b;
 }
 .grid .task42 .item3 {
+  grid-area: c;
 }
 .grid .task42 .item4 {
+  grid-area: d;
 }
 .grid .task42 .item5 {
+  grid-area: e;
 }
 .grid .task42 .item6 {
+  grid-area: f;
 }
 
 .grid .task43 {
   display: grid;
 }
 .grid .task43 .item3 {
+  grid-column: 1 / 3;
 }
 
 .grid .task44 {
   display: grid;
 }
 .grid .task44 .item3 {
+  order: -1;
+  grid-row: span 2;
 }
 
 .grid .task45 {
   display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 .grid .task45 .item3 {
+  order: -1;
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
 .grid .task46 {
   display: grid;
+  grid-auto-columns: min-content max-content;
 }
 
 .grid .task47 {
   display: grid;
+  grid-auto-rows: min-content;
 }
 
 .grid .task48 {
   display: grid;
+  grid-auto-flow: row;
 }
 
 .grid .task50 {
   display: grid;
+  grid-auto-flow: dense;
 }
 
 .grid .task49 {
   display: grid;
+  grid-auto-flow: column;
 }
 
 .grid .task51 {
   display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
 }
 
 .grid .task52 {
   display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
 }
