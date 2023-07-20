@@ -211,21 +211,17 @@
 }
 
 .flex .task37 .item4 {
-  width: 200px;
-  flex-grow: 0;
-  flex-shrink: 0;
+  flex: 0 0 200px;
 }
 
 .flex .task38 {
   display: flex;
-  padding: 20px 30px;
-}
-.flex .task38 .item {
-  flex: 1 1 auto;
-  margin: 20px 30px;
+  gap: 20px 30px;
 }
 
 .flex .task39 .item1 {
+  order: 4;
 }
 .flex .task39 .item3 {
+  order: 2;
 }
