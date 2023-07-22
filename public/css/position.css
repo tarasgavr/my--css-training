@@ -3,12 +3,12 @@ body {
   overflow: scroll;
 }
 
-.position .block {
+.css-position .block {
   display: grid;
   gap: 30px;
 }
 
-.position .wrapper {
+.css-position .wrapper {
   border: 2px solid #0050ff;
   border-radius: 30px;
   padding: 15px;
@@ -21,21 +21,21 @@ body {
   position: relative;
 }
 
-.position .container {
+.css-position .container {
   position: relative;
 }
 
- .position img {
+ .css-position img {
   height: 100%;
   width: auto;
 }
 
-.position .task {
+.css-position .task {
   height: 100%;
   width: 100%;
 }
 
-.position .item {
+.css-position .item {
   width: 80px;
   height: 80px;
   border-radius: 10px;
@@ -45,14 +45,14 @@ body {
   background-color: #0050ff;
 }
 
-.position h2 {
+.css-position h2 {
   font-size: 35px;
   color: #0050ff;
   margin: 35px 0;
   font-weight: 700;
 }
 
- .position p {
+ .css-position p {
   font-size: 20px;
   color: black;
   margin-bottom: 20px;

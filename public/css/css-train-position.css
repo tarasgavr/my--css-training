@@ -1,117 +1,124 @@
-.position .task1 .item {
+.css-position .task1 .item {
+  position: relative;
+  left: 200px;
+  top: 150px;
 }
 
-.position .task2 .item {
+.css-position .task2 .item {
+  position: absolute;
+  top: calc(50% - 40px); 
+  left: calc(50% - 40px);
 }
 
-.position .task3 .item {
+.css-position .task3 .item {
+
 }
 
-.position .container4 {
+.css-position .container4 {
 }
 
-.position .task4 {
+.css-position .task4 {
   width: 1000px;
 }
-.position .task4 .item {
+.css-position .task4 .item {
 }
 
-.position .task5 .item1 {
+.css-position .task5 .item1 {
   background-color: red;
 }
-.position .task5 .item2 {
+.css-position .task5 .item2 {
 }
-.position .task5 .item3 {
+.css-position .task5 .item3 {
   background-color: green;
 }
 
-.position .task6 .item {
+.css-position .task6 .item {
 }
 
-.position .task7 .item {
+.css-position .task7 .item {
 }
 
-.position .task8 .item1 {
+.css-position .task8 .item1 {
 }
-.position .task8 .item2 {
+.css-position .task8 .item2 {
   height: 120px;
 }
 
-.position .task8 p {
+.css-position .task8 p {
 }
 
-.position .task9 .item1 {
+.css-position .task9 .item1 {
   height: 200px;
 }
-.position .task9 .item2 {
+.css-position .task9 .item2 {
 }
-.position .task9 p {
-}
-
-.position .task10 .item1 {
-}
-.position .task10 .item2 {
-}
-.position .task10 p {
+.css-position .task9 p {
 }
 
-.position .task11 .img-item {
+.css-position .task10 .item1 {
+}
+.css-position .task10 .item2 {
+}
+.css-position .task10 p {
+}
+
+.css-position .task11 .img-item {
   height: 100%;
   width: 100%;
 }
 
-.position .task12 .img-item {
+.css-position .task12 .img-item {
   height: 100%;
   width: 100%;
 }
 
-.position .task13 .img-item {
+.css-position .task13 .img-item {
   height: 100%;
   width: 100%;
 }
 
-.position .task14 .img-item {
+.css-position .task14 .img-item {
   height: 100%;
   width: 100%;
 }
 
-.position .task15 .img-item {
-  height: 100%;
-  width: 100%;
-  object-fit: none;
-}
-
-.position .task16 .img-item {
+.css-position .task15 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
 }
 
-.position .task17 .img-item {
+.css-position .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
 }
 
-.position .task18 .img-item {
+.css-position .task17 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
 }
 
-.position .task19 .img-item {
+.css-position .task18 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
 }
 
-.position .task20 {
+.css-position .task19 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
 }
 
-.position .task21 {
+.css-position .task20 {
 }
 
-.position .task22 {
+.css-position .task21 {
+}
+
+.css-position .task22 {
 }
 
 html {
