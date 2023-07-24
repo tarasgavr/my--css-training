@@ -23,6 +23,7 @@ body {
 
 .css-position .container {
   position: relative;
+  height: 100%;
 }
 
  .css-position img {
