@@ -1,0 +1,110 @@
+body {
+  padding: 30px;
+}
+.flex .task {
+  height: 100%;
+}
+.wrapper {
+  display: grid;
+  gap: 30px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  border: 2px solid #0050ff;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+  width: 750px;
+  position: relative;
+  background: white;
+}
+
+.item {
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  color: #0050ff;
+  border: 2px solid black;
+}
+
+.flex .task20 .item,
+.flex .task16 .item,
+.flex .task28 .item {
+  height: auto;
+}
+
+.flex .task30,
+.flex .task31,
+.flex .task32,
+.flex .task33,
+.flex .task34,
+.flex .task35,
+.flex .task36,
+.flex .task37,
+.flex .task39 {
+  display: flex;
+}
+
+.flex .task6 .item,
+.flex .task7 .item,
+.flex .task8 .item,
+.flex .task9 .item,
+.fix-height .item {
+  width: 25%;
+}
+
+.flex .task29 .item:nth-child(2n + 1) {
+  height: 150px;
+  font-size: 50px;
+  display: inline-flex;
+}
+
+.flex .task30 {
+  align-items: center;
+}
+
+.flex .task33 .item4 {
+  height: auto;
+}
+
+.flex .task36 .item {
+  width: 100%;
+}
+
+.flex .task38 {
+  flex-wrap: wrap;
+}
+.flex .task38 .item {
+  width: 40%;
+}
+
+.fix-height {
+  min-height: 400px;
+}
+.fix-height .flex .task {
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 35px;
+  color: #0050ff;
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
