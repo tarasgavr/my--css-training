@@ -1,0 +1,170 @@
+body {
+  padding: 30px;
+  overflow: scroll;
+}
+
+.grid .wrapper {
+  display: grid;
+  gap: 30px;
+}
+
+.grid img {
+  height: 100%;
+  width: auto;
+}
+
+.grid .container {
+  border: 2px solid #0050ff;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+  width: 750px;
+  position: relative;
+  background: white;
+}
+
+.grid .item {
+  width: auto;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  color: #0050ff;
+  border: 2px solid black;
+}
+
+.grid h2 {
+  font-size: 35px;
+  color: #0050ff;
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+.grid p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.grid .task5,
+.grid .task6,
+.grid .task7,
+.grid .task8,
+.grid .task9,
+.grid .task10,
+.grid .task19 {
+  grid-template-columns: 70px 70px;
+}
+
+.grid .task3,
+.grid .task11,
+.grid .task12,
+.grid .task13,
+.grid .task14,
+.grid .task15,
+.grid .task16,
+.grid .task17,
+.grid .task18,
+.grid .task20,
+.grid .task21,
+.grid .task22,
+.grid .task23,
+.grid .task24,
+.grid .task25,
+.grid .task26,
+.grid .task27,
+.grid .task28,
+.grid .task29,
+.grid .task30,
+.grid .task31,
+.grid .task32,
+.grid .task33,
+.grid .task34,
+.grid .task35,
+.grid .task36,
+.grid .task37,
+.grid .task38,
+.grid .task39,
+.grid .task43,
+.grid .task44,
+.grid .task47 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid .task12,
+.grid .task13,
+.grid .task14,
+.grid .task15,
+.grid .task16,
+.grid .task17,
+.grid .task18,
+.grid .task19 {
+  height: 600px;
+}
+
+.grid .task24,
+.grid .task25,
+.grid .task26,
+.grid .task27,
+.grid .task28,
+.grid .task29,
+.grid .task34,
+.grid .task35,
+.grid .task36,
+.grid .task37,
+.grid .task38 {
+  grid-auto-rows: 190px;
+}
+
+.grid .task28 .item6,
+.grid .task28 .item3 {
+  font-size: 90px;
+}
+
+.grid .task33 .item {
+  justify-self: start;
+}
+
+.grid .task37 .item {
+  align-self: start;
+}
+
+.grid .task45 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid .task46 {
+  grid-template-areas: 'first second' 'third fourth';
+}
+.grid .task46 .item1 {
+  grid-area: first;
+}
+.grid .task46 .item2 {
+  grid-area: second;
+}
+.grid .task46 .item3 {
+  grid-area: third;
+}
+.grid .task46 .item4 {
+  grid-area: fourth;
+}
+
+.grid .task47 .item5,
+.grid .task47 .item6 {
+  font-size: 25px;
+}
+
+.grid .task48,
+.grid .task49,
+.grid .task50 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid .task48 .item3,
+.grid .task49 .item3,
+.grid .task50 .item3 {
+  grid-column: 1/3;
+}
