@@ -1,0 +1,184 @@
+.bg.task1 {
+  background-color: #008000;
+}
+
+.bg.task2 {
+  background-image: url('/background-img/img-400x200.jpg');
+}
+
+.bg.task3 {
+  background-image: linear-gradient(to bottom,#ff0,#f00);
+}
+
+.bg.task4 {
+  background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.bg.task5 {
+  background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
+}
+
+.bg.task6 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: repeat-x;
+}
+
+.bg.task7 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: repeat-y;
+}
+
+.bg.task8 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: no-repeat;
+}
+
+.bg.task9 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: space;
+}
+
+.bg.task10 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: round;
+}
+
+.bg.task11 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-attachment: scroll;
+}
+
+.bg.task12 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-attachment: fixed;
+}
+
+.bg.task13 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-attachment: local;
+}
+
+.bg.task14 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 50% 50%;
+}
+
+.bg.task15 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 50% 0;
+}
+
+.bg.task16 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 50% 100%;
+}
+
+.bg.task17 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 0 50%;
+}
+
+.bg.task18 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 100% 50%;
+}
+
+.bg.task19 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-position: 100px 100px;
+}
+
+.bg.task20 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-size: auto;
+}
+
+.bg.task21 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-size: 600px;
+}
+
+.bg.task22 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-size: 50%;
+}
+
+.bg.task23 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-size: contain;
+}
+
+.bg.task24 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-size: cover;
+}
+
+.bg.task25 {
+  border: 20px dashed black;
+  background-image: url('/background-img/img-400x200.jpg');
+  background-clip: border-box;
+  box-sizing: border-box;
+}
+
+.bg.task26 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-clip: padding-box;
+  border: 20px dashed black;
+  box-sizing: border-box;
+}
+
+.bg.task27 {
+  background-image: url('/background-img/img-400x200.jpg');
+  -webkit-background-clip: text;
+  font-size: 120px;
+  font-weight: 900;
+  color: transparent;
+}
+
+.bg.task28 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  box-sizing: border-box;
+  border: 20px dashed black;
+}
+
+.bg.task29 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  box-sizing: border-box;
+  border: 20px dashed black;
+  padding: 20px;
+}
+
+.bg.task30 {
+  background-image: url('/background-img/img-400x200.jpg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  border: 20px dashed black;
+  font-size: 100px;
+  font-weight: 900;
+  padding: 60px;
+}
+
+.bg.task31 {
+  border: 40px solid;
+  border-image: linear-gradient(blue,green) 27;
+  box-sizing: border-box;
+}
+
+.bg.task32 {
+  border: 40px solid;
+  border-image: radial-gradient(red 5%, green 15%, blue 60%) 27;
+  box-sizing: border-box;
+}
+
+.bg.task33 {
+  border-image-source: url('/background-img/img-400x200.jpg');
+  border-image-width: 40px;
+  border-image-slice: 10;
+  border-image-repeat: stretch;
+  box-sizing: border-box;
+}
