@@ -1,0 +1,227 @@
+.flex .task1 {
+  display: flex;
+}
+
+.flex .task2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex .task3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex .task4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex .task5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex .task6 {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.flex .task7 {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.flex .task8 {
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+
+.flex .task9 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+
+.flex .task10 {
+  display: flex;
+  justify-content: start;
+}
+
+.flex .task11 {
+  display: flex;
+  justify-content: end;
+}
+
+.flex .task12 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex .task13 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex .task14 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex .task15 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex .task16 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: stretch;
+}
+
+.flex .task17 {
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flex .task18 {
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.flex .task19 {
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.flex .task20 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.flex .task21 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.flex .task22 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.flex .task23 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.flex .task24 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: center;
+}
+
+.flex .task25 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.flex .task26 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.flex .task27 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex .task28 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: stretch;
+}
+
+.flex .task29 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.flex .task30 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex .task30 .item1 {
+  align-self: start;
+}
+
+.flex .task31 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.flex .task31 .item2 {
+  align-self: end;
+}
+
+.flex .task32 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.flex .task32 .item3 {
+  align-self: center;
+}
+
+.flex .task33 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.flex .task33 .item4 {
+  align-self: stretch;
+}
+/* 
+.flex .task34 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+} */
+.flex .task34 .item1 {
+  flex-grow: .5;
+}
+
+.flex .task35 .item2 {
+  flex-grow: 1;
+}
+
+.flex .task36 .item3 {
+  flex-shrink: 0.5;
+}
+
+.flex .task37 .item4 {
+  flex: 0 0 200px;
+}
+
+.flex .task38 {
+  display: flex;
+  gap: 20px 30px;
+}
+
+.flex .task39 .item1 {
+  order: 4;
+}
+.flex .task39 .item3 {
+  order: 2;
+}
