@@ -47,6 +47,18 @@ router.get('/css-train-flex', function (req, res) {
   //                  ↑↑ сюди вводимо JSON дані
 })
 
+// ===============================================================
+router.get('/css-train-transform', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('css-train-transform', {
+    title: 'css-train-transform',
+    layout: 'css',
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
 // ================================================================
 
 // Підключаємо роутер до бек-енду
