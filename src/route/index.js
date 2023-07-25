@@ -17,6 +17,18 @@ router.get('/', function (req, res) {
 })
 
 // ================================================================
+router.get('/css-train-position', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('css-train-position', {
+    title: 'css-train-position',
+    layout: 'css',
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
+// ================================================================
 
 // Підключаємо роутер до бек-енду
 module.exports = router

@@ -1,0 +1,60 @@
+body {
+  padding: 30px;
+  overflow: scroll;
+}
+
+.css-position .block {
+  display: grid;
+  gap: 30px;
+}
+
+.css-position .wrapper {
+  border: 2px solid #0050ff;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+  min-width: 750px;
+  background: white;
+  max-height: 400px;
+  height: 400px;
+  width: 700px;
+  position: relative;
+}
+
+.css-position .container {
+  position: relative;
+  height: 100%;
+}
+
+ .css-position img {
+  height: 100%;
+  width: auto;
+}
+
+.css-position .task {
+  height: 100%;
+  width: 100%;
+}
+
+.css-position .item {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 55px;
+  color: white;
+  background-color: #0050ff;
+}
+
+.css-position h2 {
+  font-size: 35px;
+  color: #0050ff;
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+ .css-position p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
